@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<% if (locals.name) { %>
+<html>
+    <head>
+      <link href="/stylesheets/normalize.css" type="text/css" rel="stylesheet">
+      <link href="/stylesheets/layout.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work_experience.html">Work</a></li>
+      <li><a href="interests.html">Interests</a></li>
+      <li><a href="about_me.html">About</a></li>
+      <li><a href="Games.html">Games</a></li>
+  </ul>
+        <h1> Hello <%= locals.name %></h1>
+        <p> Last Name: <%= locals.lastname %> </p>
+        <p> Emai: <%= locals.email %> </p>
+        <p> Phone Number is: <%= locals.phonenumber %> </p>
+
+    </body>
+</html>
+<% } else { %>
+<html>
+<head>
+  <link href="/stylesheets/normalize.css" type="text/css" rel="stylesheet">
+  <link href="/stylesheets/layout.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="work_experience.html">Work</a></li>
+  <li><a href="interests.html">Interests</a></li>
+  <li><a href="about_me.html">About</a></li>
+  <li><a href="Games.html">Games</a></li>
+</ul>
+  <h1>
+    WebSite Form
+    </h1>
+      <form method="POST" action='/forms/'>
+      First Name:<br>
+      <input type ="text" name = "firstname" required><br>
+      Last Name:<br>
+      <input type ="text" name = "lastname" required><br>
+      Email:<br>
+      <input type ="email" name = "email" required><br>
+      Phone Number:<br>
+      <input type ="tel" name = "phonenumber" required><br>
+
+
+      Favorite phone brand:<br>
+      <input type ="radio" name = "phone company" value = "Apple" checked>Apple
+      <input type ="radio" name = "phone company" value = "Samsung">Samsung
+      <input type ="radio" name = "phone company" value = "Motorola">Motorola
+      <input type ="radio" name = "phone company" value = "Other">Other<br>
+      Additional Information:<br>
+      <input type ="text" name = "comment"><br>
+      <input type="submit"></input>
+      </form>
+</body>
+</html>
+<% } %>

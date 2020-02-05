@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Hawks",
+    "location": "Atlanta",
+    "logoUrl": "hawks.png",
+    "abbreviation": "ATL"
+  },
+  {
+    "name": "Celtics",
+    "location": "Boston",
+    "logoUrl": "celtics.png",
+    "abbreviation": "BOS"
+  },
+  {
+    "name": "Hornets",
+    "location": "Charlotte",
+    "logoUrl": "horenets.png",
+    "abbreviation": "CHA"
+  },
+  {
+    "name": "Bulls",
+    "location": "Chicago",
+    "logoUrl": "bulls.png",
+    "abbreviation": "CHI"
+  },
+  {
+    "name": "Cavaliers",
+    "location": "Cleveland",
+    "logoUrl": "cavs.png",
+    "abbreviation": "CLE"
+  },
+  {
+    "name": "Mavericks",
+    "location": "Dallas",
+    "logoUrl": "mavoricks.jpg",
+    "abbreviation": "DAL"
+  },
+  {
+    "name": "Pistons",
+    "location": "Detroit",
+    "logoUrl": "pistons.png",
+    "abbreviation": "DET"
+  },
+  {
+    "name": "Nuggets",
+    "location": "Denver",
+    "logoUrl": "nuggets.png",
+    "abbreviation": "DEN"
+  },
+  {
+    "name": "Warriors",
+    "location": "Golden State",
+    "logoUrl": "warriors.png",
+    "abbreviation": "GSW"
+  },
+  {
+    "name": "Rockets",
+    "location": "Houston",
+    "logoUrl": "rockets.png",
+    "abbreviation": "HOU"
+  },
+  {
+    "name": "Pacers",
+    "location": "Indiana",
+    "logoUrl": "pacers.png",
+    "abbreviation": "IND"
+  },
+  {
+    "name": "Clippers",
+    "location": "Los Angeles",
+    "logoUrl": "clippers.png",
+    "abbreviation": "LAC"
+  },
+  {
+    "name": "Grizzlies",
+    "location": "Memphis",
+    "logoUrl": "grizzlies.png",
+    "abbreviation": "MEM"
+  },
+  {
+    "name": "Heat",
+    "location": "Miami",
+    "logoUrl": "heat.jpg",
+    "abbreviation": "MIA"
+  },
+  {
+    "name": "Lakers",
+    "location": "Los Angeles - shared",
+    "abbreviation": "LAL",
+    "logoUrl": "Lakers.png"
+  },
+  {
+    "name": "Bucks",
+    "location": "Milwaukee",
+    "logoUrl": "bucks.jpg",
+    "abbreviation": "MIL"
+  },
+  {
+    "name": "Timberwolves",
+    "location": "Minnesota",
+    "logoUrl": "timberwolves.jpg",
+    "abbreviation": "MIN"
+  },
+  {
+    "name": "Pelicans",
+    "location": "New Orleans",
+    "abbreviation": "NOP",
+    "logoUrl": "pelicans.png"
+  },
+  {
+    "name": "Knicks",
+    "location": "New York",
+    "logoUrl": "knicks.png",
+    "abbreviation": "NYK"
+  },
+  {
+    "name": "Nets",
+    "location": "Brooklyn",
+    "logoUrl": "nets.png",
+    "abbreviation": "BKN"
+  },
+  {
+    "name": "Thunder",
+    "location": "Oklahoma City",
+    "logoUrl": "thunder.png",
+    "abbreviation": "OKC"
+  },
+  {
+    "name": "Magic",
+    "location": "Orlando",
+    "logoUrl": "magic.png",
+    "abbreviation": "ORL"
+  },
+  {
+    "name": "76ers",
+    "location": "Philadelphia",
+    "logoUrl": "76ers.png",
+    "abbreviation": "PHI"
+  },
+  {
+    "name": "Suns",
+    "location": "Phoenix",
+    "logoUrl": "Suns",
+    "abbreviation": "PHX"
+  },
+  {
+    "name": "Trailblazers",
+    "location": "Portland",
+    "logoUrl": "Trailblazers_Portland.gif",
+    "abbreviation": "POR"
+  },
+  {
+    "name": "Kings",
+    "location": "Sacramento",
+    "logoUrl": "Kings_Sacramento.gif",
+    "abbreviation": "SAC"
+  },
+  {
+    "name": "Spurs",
+    "location": "San Antonio",
+    "logoUrl": "spurs.png",
+    "abbreviation": "SAS"
+  },
+  {
+    "name": "Raptors",
+    "location": "Toronto",
+    "logoUrl": "raptors.png",
+    "abbreviation": "TOR"
+  },
+  {
+    "name": "Jazz",
+    "location": "Utah",
+    "logoUrl": "jazz.png",
+    "abbreviation": "UTA"
+  },
+  {
+    "name": "Wizards",
+    "location": "Washington",
+    "logoUrl": "wizards.png",
+    "abbreviation": "WAS"
+  }
+]

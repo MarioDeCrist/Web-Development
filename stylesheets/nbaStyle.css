@@ -1,0 +1,16 @@
+.search-Bar {
+    display: block;
+
+    font-size: 3em;
+
+    width: 80%;
+    height: .8em;
+
+    margin: auto;
+    padding-top: 0.3em;
+
+    text-align: center;
+}
+.team-List{
+  background-color: cornsilk;
+}

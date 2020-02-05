@@ -1,0 +1,98 @@
+h1 {
+  text-align: center;
+  border: 5px solid white;
+  background-color: crimson;
+  margin-right: 70px;
+  margin-left: 70px;
+  padding: 25px;
+  color: white;
+
+}
+#lightsout-board{
+  display: grid;
+  grid-template-columns: repeat(5,1em);
+  grid-template-rows: repeat(5,1em);
+  grid-auto-rows: 1fr;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: crimson;
+  padding: 70px;
+
+}
+
+.grid-container > div {
+  background-color: cornsilk;
+  text-align: center;
+  padding: 20px ;
+  font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #333;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+li {
+  display: inline-block;
+  width: 18%;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+
+}
+
+.active {
+    background-color: #4CAF50;
+}
+body {
+  background-color: cornsilk;
+}
+h2 {
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 80px;
+  border: 5px solid white;
+  background-color: lightblue;
+  font-size: 35;
+}
+p {
+  font-size:20px;
+  text-align: center;
+}
+table, th, td {
+
+  font-size: 20px;
+  text-align: right;
+  margin-left: 524px;
+
+
+}
+a {
+  font-size: 45px;
+  text-align:center;
+  display:block;
+}

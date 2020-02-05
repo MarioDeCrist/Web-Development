@@ -1,0 +1,29 @@
+<html>
+<head>
+  <link href="/stylesheets/normalize.css" type="text/css" rel="stylesheet">
+  <link href="/stylesheets/layout.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="work_experience.html">Work</a></li>
+  <li><a href="interests.html">Interests</a></li>
+  <li><a href="about_me.html">About</a></li>
+  <li><a href="Games.html">Games</a></li>
+</ul>
+  <h1>
+    WebSite Form
+    </h1>
+    <div>
+        <% for (let i=0; i < rows.length; i++) { %>
+        <h1>First Name: <%= rows[i].name %></h1>
+        <p> Last Name: <%= rows[i].lastname %> </p>
+        <p> Email: <%= rows[i].email %> </p>
+        <p> Phone Number is: <%= rows[i].phonenumber %> </p>
+
+        <% } %>
+
+    </div>
+</body>
+</html>
